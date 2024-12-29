@@ -19,8 +19,23 @@ while(c<=6){
     c++;
 }
 
-d=3;
+d=3
 do{
     console.log(d);
     d++;
 }while(d<4);
+
+array.forEach((element,index)=>{
+    console.log("Element is",element,"and its index is",index);
+})
+
+objType = {
+    "name" : "Akshu",
+    "age" : 19,
+    "college" : "KEC"
+}
+objType.forEach(({key,value})=>{
+    console.log(value);
+})
+//obj is not iteratable
+//print using forof and foreach

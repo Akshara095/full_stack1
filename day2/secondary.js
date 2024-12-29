@@ -23,3 +23,10 @@ console.log(objType2.movie);
 
 objectType3 = new Object()
 console.log(objectType3);
+
+objType4 = {
+    "name" : "Akshu",
+    "age" : 19,
+    "college" : "KEC"
+}
+console.log(objType4.name);

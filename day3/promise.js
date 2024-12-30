@@ -16,3 +16,4 @@ locationfinder().then((resolvedmsg)=>{
 }).catch(function (rejectmsg){
     console.log(rejectmsg);
 })
+

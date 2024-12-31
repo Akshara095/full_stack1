@@ -1,0 +1,13 @@
+
+.box-model{
+    font-size:50px;
+    margin:10px;
+    border: solid;
+    border-color: rgb(21, 75, 77);
+    background-color: brown;
+    text-align: center;
+}
+#para{
+    color: rgb(16, 50, 51);
+    font-size:30px;
+}

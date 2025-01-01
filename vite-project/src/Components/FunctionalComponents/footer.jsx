@@ -3,14 +3,14 @@ import '../FunctionalComponents/footer.css';
 import { useState } from 'react';
 
 const Footer = () => {
-    var submit = useState();
-    function sub(){
-        console.log(submit("Form submitted successfully"))
+    var [submit,setText]= useState("Form submitted successfully");
+    function setText(){
+        console.log("Form submitted successfully")
     }
 
   return (
     <footer className="footer">
-      <h1>This is a simple footer</h1>
+      <div>
       <form >
         <h2>Feedback Form</h2>
         <div >
@@ -29,10 +29,11 @@ const Footer = () => {
           <p></p>
         </div>
         <div className="form-buttons">
-          <button type="submit" onClick={()=>{submit()}}>Submit</button>
+          <button type="submit"  onSubmit={setText}>Submit</button>
           <button type="reset">Reset</button>
         </div>
       </form>
+      </div>
     </footer>
   );
 };

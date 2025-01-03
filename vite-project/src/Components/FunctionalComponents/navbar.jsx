@@ -40,6 +40,9 @@ var NavBar = () =>{
                     <li>
                         <Link to='/image'>Image</Link>
                     </li>
+                    <li>
+                        <Link to='/mongodb'>Mongodb</Link>
+                    </li>
                     
                 </ul>
             </nav>

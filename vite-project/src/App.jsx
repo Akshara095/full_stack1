@@ -13,6 +13,7 @@ import UseContext from './Components/FunctionalComponents/usecontext';
 import UseRef1 from './Components/FunctionalComponents/useref1';
 import Image from './Components/FunctionalComponents/image';
 import UseMemo from './Components/FunctionalComponents/usememo';
+import Mongodb from './Components/FunctionalComponents/mongodb';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 
 
@@ -35,6 +36,7 @@ return (
             <Route path='/useref1' element={<UseRef1/>}></Route>
             <Route path='/usememo' element={<UseMemo/>}></Route>
             <Route path='/image' element={<Image/>}></Route>
+            <Route path='/mongodb' element={<Mongodb/>}></Route>
 
           </Routes>
           <Footer></Footer>

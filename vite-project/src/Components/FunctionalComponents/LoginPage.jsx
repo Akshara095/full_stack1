@@ -15,7 +15,7 @@ function LoginPage() {
 
   const login=async (event)=>{
     event.preventDefault()
-    var req = await axios.post("http://https://full-stack-mern-47br.onrender.com/login",{
+    var req = await axios.post("https://full-stack-mern-47br.onrender.com/login",{
       // email:email,
       // password:password
       email, password

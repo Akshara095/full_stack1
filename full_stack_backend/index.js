@@ -104,5 +104,5 @@ app.post('/login',async(req, res)=>{
 
 
 app.listen(PORT, () => {
-    console.log(`Backend Server Started\nUrl: http://https://full-stack-mern-47br.onrender.com:${PORT}`)
+    console.log(`Backend Server Started\nUrl: http://localhost:${PORT}`)
 })

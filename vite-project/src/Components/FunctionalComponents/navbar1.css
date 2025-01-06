@@ -1,0 +1,21 @@
+ul{
+    display : flex;
+    padding : 15px;
+    margin : 0px;
+    text-align : center;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: rgb(173, 131, 212);
+    color:aliceblue;
+}
+
+li{
+    cursor:pointer;
+    padding:3px;
+}
+
+li:hover{
+    background-color: rgb(238, 161, 225);
+    border-radius: 5px;
+    color:rgb(126, 120, 219);
+}

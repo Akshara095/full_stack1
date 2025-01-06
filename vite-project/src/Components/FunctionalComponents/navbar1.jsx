@@ -1,19 +1,12 @@
-import '../FunctionalComponents/navbar.css'
+import '../FunctionalComponents/navbar1.css'
 import React from 'react';
 import {Link} from 'react-router-dom';
-var NavBar = () =>{
+var NavBar1 = () =>{
     return (
         <header>
             <nav>
-                <ul>
-                <li>
-                        <Link to='/'>Signup</Link>
-                        </li>
                     <li>
-                        <Link to='/LoginPage'>Login</Link>
-                        </li>
-                    <li>
-                        <Link to='/home'>Home</Link>
+                        <Link to='/'>Home</Link>
                     </li>
                     <li>
                         <Link to='/about'>About</Link>
@@ -48,11 +41,8 @@ var NavBar = () =>{
                     <li>
                         <Link to='/mongodb'>Mongodb</Link>
                     </li>
-                    
-                    
-                </ul>
             </nav>
         </header>
     )
 }
-export default NavBar;
+export default NavBar1;

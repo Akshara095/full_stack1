@@ -6,7 +6,7 @@ function LoginPage() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   var navigate=useNavigate();
-
+  
   // const handleLogin = (e) => {
   //   e.preventDefault();
   //   console.log('Email:', email);

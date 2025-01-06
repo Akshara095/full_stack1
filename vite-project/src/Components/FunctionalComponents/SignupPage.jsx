@@ -19,7 +19,7 @@ function SignupPage() {
   // };
   const signup=async (event)=>{
     event.preventDefault() //to prevent refresh of the whole page on submit
-    var req = await axios.post("http://127.0.0.1:3000/signup",{
+    var req = await axios.post("http://https://full-stack-mern-47br.onrender.com/signup",{
       firstName:firstName,
       lastName:lastName,
       email:email,

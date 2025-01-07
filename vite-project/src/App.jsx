@@ -4,7 +4,7 @@ import Home from './Components/FunctionalComponents/home';
 import About from './Components/FunctionalComponents/about';
 import Contact from './Components/FunctionalComponents/contact';
 import Gallery from './Components/FunctionalComponents/gallery';
-import NavBar from './Components/FunctionalComponents/navbar';
+//import NavBar from './Components/FunctionalComponents/navbar';
 import Footer from './Components/FunctionalComponents/footer';
 import UseEffect from './Components/FunctionalComponents/useeffect';
 import UseEffect1 from './Components/FunctionalComponents/useeffect1';
@@ -23,7 +23,6 @@ function App() {
 return (
       <div>
          <BrowserRouter>
-         <NavBar></NavBar>
           <Routes>
           <Route path="/LoginPage" element={<LoginPage />} />
           <Route path="/" element={<SignupPage />} />
